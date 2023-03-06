@@ -422,7 +422,7 @@ button, a { transition: var(--transition); }
 }
 
 .header-bottom-actions-btn ion-icon {
-  color: hsl(0, 0%, 10%);
+  color: hsl(223, 36%, 20%);
   font-size: 20px;
   margin-inline: auto;
   margin-bottom: 5px;
