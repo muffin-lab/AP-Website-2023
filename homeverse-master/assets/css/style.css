@@ -693,10 +693,14 @@ a {
   align-items: center;
   padding: 40px 16px;
 }
+/* 
+#legal {
+  background-color: lightgrey;
+} */
 
 .legal-card {
   position: relative;
-  width: 300px;
+  width: 500px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
@@ -1582,7 +1586,7 @@ button.pinterest {
 
   .footer-link-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
   }
 }
