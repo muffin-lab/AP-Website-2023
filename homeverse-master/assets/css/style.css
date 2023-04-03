@@ -1274,7 +1274,7 @@ button.pinterest {
   #FORM
 \*-----------------------------------*/
 
-/* .form-section {
+.form-section {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -1426,8 +1426,8 @@ form .user-details .input-box{
   .container-form .content .category{
     flex-direction: column;
   }
-} */
-
+}
+/* 
 
 .container-form{
   width: 700px;
@@ -1580,7 +1580,7 @@ form .user-details .input-box{
   100%{
       transform: scale(1);
   }
-}
+} */
 
 
 /*-----------------------------------*\
