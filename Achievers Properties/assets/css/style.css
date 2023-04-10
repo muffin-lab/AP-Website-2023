@@ -742,7 +742,6 @@ a {
 .legal-name {
   margin-top: 80px;
   font-size: 1.4em;
-  color: #333;
   font-weight: bold;
   letter-spacing: 0.8px;
   margin-bottom: 8px;
@@ -785,6 +784,7 @@ button.twitter {
 button.pinterest {
   background-color: #d3263a;
 }
+
 
 /*-----------------------------------*\
   #PROPERTY
@@ -2070,7 +2070,6 @@ form .button input:hover {
 /**
  * responsive for larger than 992px screen
  */
-
 @media (min-width: 992px) {
   /**
    * CUSTOM PROPERTY
