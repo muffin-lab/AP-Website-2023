@@ -729,7 +729,7 @@ a {
 
 .legal-card-image img {
   width: 100%;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .legal-card p {
@@ -763,28 +763,6 @@ a {
   cursor: pointer;
   transition: opacity 0.4s;
 }
-
-button:hover {
-  opacity: 0.8;
-}
-
-button i {
-  color: #fff;
-  font-size: 1.6em;
-}
-
-button.github {
-  background-color: #24292e;
-}
-
-button.twitter {
-  background-color: #1da1f2;
-}
-
-button.pinterest {
-  background-color: #d3263a;
-}
-
 
 /*-----------------------------------*\
   #PROPERTY
