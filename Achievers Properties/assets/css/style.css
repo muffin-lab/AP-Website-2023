@@ -1490,6 +1490,11 @@ form .button input:hover {
   padding: 80px 12%;
 }
 
+.profile-abhay-left img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
 .profile-abhay-right {
   padding: 80px 5%;
 }
@@ -1513,14 +1518,17 @@ form .button input:hover {
   .profile-abhay {
     display: inline-block;
     align-items: center;
+    justify-content: center;
   }
 
   .profile-abhay-left {
-    padding: 50px;
+    padding: 10px;
+    margin-left: 4px;
   }
 
   .profile-abhay-left img {
-    padding: 0;
+    margin: 10px;
+    border-radius: 10px;
   }
 
   .profile-abhay-right {
