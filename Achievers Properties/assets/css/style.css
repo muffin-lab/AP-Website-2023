@@ -727,7 +727,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  
+
   .profile-legal {
     display: inline-block;
     align-items: center;
@@ -752,7 +752,7 @@ a {
     text-align: center;
   }
 
-}  
+}
 
 /*-----------------------------------*\
   #PROPERTY
@@ -1503,7 +1503,7 @@ form .button input:hover {
 }
 
 @media (max-width: 768px) {
-  
+
   .profile-abhay {
     display: inline-block;
     align-items: center;
@@ -1528,7 +1528,7 @@ form .button input:hover {
     text-align: center;
   }
 
-}  
+}
 
 /*-----------------------------------*\
   #BLOG
