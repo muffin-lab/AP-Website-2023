@@ -690,13 +690,69 @@ a {
 
 .profile-legal {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: auto;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
+
+.profile-legal-left {
+  padding: 50px 12%;
+}
+
+.profile-legal-left img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.profile-legal-right {
+  padding: 10px 5%;
+}
+
+.profile-legal-right h1 {
+  color: #e74d06;
+  font-size: 24px;
+  margin-bottom: 5px;
+  padding: 5px;
+  color: var(--dark-jungle-green);
+}
+
+.profile-legal-right p {
+  padding: 5px;
+  text-align: justify;
+  color: var(--cadet);
+}
+
+@media (max-width: 768px) {
+  
+  .profile-legal {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-legal-left {
+    padding: 10px;
+    margin-left: 4px;
+  }
+
+  .profile-legal-left img {
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .profile-legal-right {
+    padding: 30px;
+    margin: auto;
+  }
+  .profile-legal-right h1 {
+    text-align: center;
+  }
+
+}  
 
 /*-----------------------------------*\
   #PROPERTY
