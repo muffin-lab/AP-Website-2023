@@ -366,6 +366,7 @@ a {
 .header-bottom {
   background: var(--white);
   padding-block: 25px;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .header-bottom .logo img {
@@ -1190,6 +1191,7 @@ a {
   padding-block: var(--section-padding);
 }
 
+
 #testimonials {
   background: #fff;
 }
@@ -1275,6 +1277,10 @@ a {
 /*-----------------------------------*\
   #FORM
 \*-----------------------------------*/
+
+#form {
+  background: var(--white);
+}
 
 .form-section {
   display: flex;
@@ -1532,6 +1538,7 @@ form .button input:hover {
 
 .blog {
   padding-block: var(--section-padding);
+  background: var(--cultured-2);
 }
 
 .blog-card {
