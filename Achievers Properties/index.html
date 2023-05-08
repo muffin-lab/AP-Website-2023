@@ -339,7 +339,8 @@
                     </h3>
 
                     <p class="card-text">
-                      Elegant Commercial IT-ITES building for everything. More Than A Workplace.
+                      Elegant Commercial IT-ITES building for everything. More
+                      Than A Workplace.
                     </p>
 
                     <ul class="card-list">
@@ -1565,7 +1566,7 @@
                         <span class="details">Company name</span>
                         <input
                           type="text"
-                          name="name"
+                          name="company"
                           placeholder="Enter your company"
                           required
                         />
@@ -1573,7 +1574,7 @@
                       <div class="input-box">
                         <span class="details">Email</span>
                         <input
-                          type="text"
+                          type="email"
                           name="email"
                           placeholder="Enter your email"
                           required
@@ -1582,33 +1583,29 @@
                       <div class="input-box">
                         <span class="details">Phone Number</span>
                         <input
-                          type="text"
-                          name="number"
+                          type="number"
+                          name="phone"
                           placeholder="Enter your number"
                           required
                         />
                       </div>
-                      <!-- <div class="input-box">
+                      <div class="input-box">
                         <span class="details">Enquiry For</span>
-                        <label for="requirement">Select Options:</label>
-
-                        <select id="options" name="name">
-                          <option value="commercial">Commercial Office Spaces</option>
-                          <option value="1bhk">Residential 1BHK</option>
-                          <option value="2bhk">Residential 2BHK</option>
-                          <option value="3bhk">Residential 3BHK</option>
-                          <option value="other">Others ? Please mention in the message beside.</option>
+                        <select id="options" type="select" name="enquiry">
+                          <option value="commercial">Commercial Office</option>
+                          <option value="residential">Residential Flat</option>
+                          <option value="other">Others - Please Mention</option>
                         </select>
-                      </div> -->
+                      </div>
                       <div class="input-box message">
                         <span class="details">Message</span>
                         <textarea name="message" id=""></textarea>
                       </div>
                     </div>
                     <div class="gender-details">
-                      <input type="radio" name="gender" id="dot-1" />
-                      <input type="radio" name="gender" id="dot-2" />
-                      <input type="radio" name="gender" id="dot-3" />
+                      <input type="radio" name="gender" value="male" id="dot-1" />
+                      <input type="radio" name="gender" value="female" id="dot-2" />
+                      <input type="radio" name="gender" value="other" id="dot-3" />
                       <span class="gender-title">Gender</span>
                       <div class="category">
                         <label for="dot-1">
