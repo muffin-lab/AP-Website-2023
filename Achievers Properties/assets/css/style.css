@@ -1398,6 +1398,10 @@ form .category label .dot {
   transition: all 0.3s ease;
 }
 
+form .gender {
+  color: var(--cadet);
+}
+
 #dot-1:checked ~ .category label .one,
 #dot-2:checked ~ .category label .two,
 #dot-3:checked ~ .category label .three {
@@ -1426,6 +1430,23 @@ form .button input {
   cursor: pointer;
   transition: all 0.3s ease;
   background: var(--dark-jungle-green);
+}
+
+form #options {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  color: var(--cadet);
+}
+
+form #options option {
+  background-color: #fff;
 }
 
 form .button input:hover {
